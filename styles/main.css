@@ -1,3 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#memoji {
+  /* width: 75%; */
+}
+
 h1 {
   color: red;
 }
