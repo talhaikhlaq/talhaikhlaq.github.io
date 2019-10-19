@@ -9,7 +9,13 @@ section {
 }
 
 #memoji {
-  /* width: 75%; */
+  width: 50%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
 h1 {
