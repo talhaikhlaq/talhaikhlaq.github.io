@@ -12,36 +12,164 @@
     <link rel="stylesheet" href="./styles/main.css">
     <!-- Browser Tab Icon -->
     <link rel="icon" href="./assets/browser-tab-icon.png">
+    <!-- Dev Icons -->
+    <link rel="stylesheet"
+      href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat&display=swap" rel="stylesheet">
   </head>
   <body>
 
     <main>
-      
-      <div class="hero hero-lg bg-dark">
-        <div class="hero-body">
-          <h1>Hi I'm Talha 👋</h1>
-          <h1>Welcome To My Portfolio 👨‍💻</h1>
-        </div>
-      </div>
+    
 
-      <div class="hero hero-lg bg-primary">
-        <div class="hero-body">
-          <h1>I'm a Software Engineer and Teaching Assistant at General Assembly</h1>
+      <section class="home">
+        <div class="home-body">
+          <h1 class="name">Hi, I'm Talha</h1>
+          <h1 class="portfolio">Welcome To My Portfolio</h1>
         </div>
-      </div>
+      </section>
 
-      <div class="hero hero-lg bg-secondary">
-        <div class="hero-body">
+      <section class="skills">
+        <div class="skills-body">
+          <div class="columns">
+
+            <div class="col-6">
+              <img class="profile-image" src="./assets/talha-9 copy.jpg" alt="profile image" width="150px">
+              <br>
+              <h1>I'm a Software Engineer and Teaching Assistant at General Assembly</h1>
+              <p>Being the go to resident tech-head, I have always taken satisfaction in resolving a problem to the best of my ability.
+              It is this desire across the tech community which inspires me to work with people who share my enthusiasm for creating
+              something to benefit people everywhere.</p>
+              <br>
+              <p>As a result, I attended the Software Engineering Course at General Assembly to improve my skills in various full stack
+              technologies. My time on the course were spent working on challenging solo projects as well as team projects were I managed version control with Git and Github, deployed said projects with Heroku and most importantly gained crucial practice and understanding of various Front-end and Back-end technologies such as React.js, Node.js, Python and many more.</p>
+            </div>
+
+            <div class="col-6">
+              <div class=devicons>
+                <i class="devicon-react-original"></i>
+                <small>React.js</small>
+              </div>
+              <div class=devicons>
+                <i class="devicon-nodejs-plain"></i>
+                <small>Node.js</small>
+              </div>
+              <div class=devicons>
+                <i class="devicon-mongodb-plain"></i>
+                <small>MongoDB</small>
+              </div>
+              <div class=devicons>
+                <i class="devicon-express-original"></i>
+                <small>Express.js</small>
+              </div>
+              <div class=devicons>
+                <i class="devicon-javascript-plain"></i>
+                <small>JavaScript</small>
+              </div>
+              <div class=devicons>
+                <i class="devicon-html5-plain"></i>
+                <small>HTML5</small>
+              </div>
+              <div class=devicons>
+                <i class="devicon-css3-plain"></i>
+                <small>CSS3</small>
+              </div>
+              <div class=devicons>
+                <i class="devicon-sass-original"></i>
+                <small>SASS</small>
+              </div>
+              <div class=devicons>
+                <i class="devicon-postgresql-plain"></i>
+                <small>PostgreSQL</small>
+              </div>
+              <div class=devicons>
+                <i class="devicon-django-plain"></i>
+                <small>Django</small>
+              </div>
+              <div class=devicons>
+                <i class="devicon-git-plain"></i>
+                <small>Git</small>
+              </div>
+              <div class=devicons>
+                <i class="devicon-heroku-line"></i>
+                <small>Heroku</small>
+              </div>
+              <div class=devicons>
+                <i class="devicon-mocha-plain"></i>
+                <small>Mocha</small>
+              </div>
+              <div class=devicons>
+                <i class="devicon-python-plain"></i>
+                <small>Python</small>
+              </div>
+              <div class=devicons>
+                <i class="devicon-webpack-plain"></i>
+                <small>Webpack</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects">
+        <div class="projects-body">
           <h1>My Projects</h1>
-        </div>
-      </div>
+        
 
-      <div class="hero hero-lg bg-success">
-        <div class="hero-body">
-          <h1>About Me</h1>
-        </div>
-      </div>
+          <!-- Slideshow container -->
+          <div class="slideshow-container">
+          
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+              <div class="numbertext"></div>
+              <img src="./assets/project-4.png" style="width:100%">
+              <div class="text"></div>
+            </div>
+          
+            <div class="mySlides fade">
+              <div class="numbertext"></div>
+              <img src="./assets/project-3.png" style="width:100%">
+              <div class="text"></div>
+            </div>
+          
+            <div class="mySlides fade">
+              <div class="numbertext"></div>
+              <img src="./assets/project-2.png" style="width:100%">
+              <div class="text"></div>
+            </div>
 
+            <div class="mySlides fade">
+              <div class="numbertext"></div>
+              <img src="./assets/project-1.png" style="width:100%">
+              <div class="text"></div>
+            </div>
+          
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          <br>
+          
+          <!-- The dots/circles -->
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+          </div>
+
+        </div>
+
+      </section>
+
+      <section class="contact">
+        <div class="contact-body">
+          <h1>Contact Me</h1>
+        </div>
+      </section>
+    
+    
     </main>
 
 
