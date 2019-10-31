@@ -191,9 +191,24 @@ div.col-12 {
 
 @media screen and (max-device-width: 960px) {
   
-  .home {
-    height: 100vh;
-    /* width: 100vw; */
+  section.home {
+    height: 900px;
+    width: 100%;
+  }
+
+  section.skills {
+    height: auto;
+    width: 100%;
+  }
+
+  div.projects-body {
+    height: auto;
+    width: 100%;
+  }
+
+  section.contact {
+    height: auto;
+    width: 100%;
   }
   
   .col-6.profile {
