@@ -232,7 +232,7 @@ div.col-3 {
   section.home {
     height: 900px;
     width: 100%;
-    border: 5px white solid;
+    border: none;
   }
 
   div.memoji-container {
@@ -269,6 +269,7 @@ div.col-3 {
   section.skills {
     height: auto;
     width: 100%;
+    border: none;
   }
 
   img.profile-image {
@@ -308,6 +309,10 @@ div.col-3 {
   }
 
   /* Projects Page */
+  section.projects {
+    border: none;
+  }
+
   div.projects-body {
     height: auto;
     width: 100%;
@@ -326,6 +331,7 @@ div.col-3 {
   section.contact {
     height: auto;
     width: 100%;
+    border: none;
   }
   
   .col-6.profile {
