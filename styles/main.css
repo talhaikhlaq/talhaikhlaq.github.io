@@ -240,6 +240,10 @@ div.col-3 {
     justify-content: center;
   }
 
+  div.memoji-container>img.memoji-image {
+    width: 250px;
+  }
+
   h1.name {
   color: whitesmoke;
   font-size: 75px;
