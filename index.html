@@ -30,7 +30,7 @@
       <!-- Home page -->
       <section class="home">
         <div class="memoji-container">
-          <img class="memoji-image" src="./assets/tal-memoji-icon.png" alt="tal memoji icon" width="250px">
+          <img class="memoji-image" src="./assets/tal-memoji-icon.png" alt="tal memoji icon">
         </div>
         <div class="container">
           <h1 class="name">Hi, I'm Talha</h1>
@@ -40,12 +40,11 @@
 
       <!-- Skills page -->
       <section class="skills">
-        <div class="container">
           <div class="columns">
-
+            <!-- Profile Column 50% of page width -->
             <div class="col-6 profile">
               <div class="image-container">
-                <img class="profile-image" src="./assets/talha-9 copy.jpg" alt="profile image" width="150px">
+                <img class="profile-image" src="./assets/talha-9 copy.jpg" alt="profile image">
               </div>
               <br>
               <div class="about-skills-container">
@@ -57,79 +56,82 @@
                 technologies. My time on the course were spent working on challenging solo projects as well as team projects where I managed version control with Git and Github, deployed said projects with Heroku and most importantly gained crucial practice and understanding of various Front-end and Back-end technologies such as React.js, Node.js, Python and many more.</p>
               </div>
             </div>
-
+            <!-- Dev Icons Column 50% of page width -->
             <div class="col-6">
-              <div class=devicons>
-                <i class="devicon-react-original"></i>
-                <small>React.js</small>
-              </div>
-              <div class=devicons>
-                <i class="devicon-nodejs-plain"></i>
-                <small>Node.js</small>
-              </div>
-              <div class=devicons>
-                <i class="devicon-mongodb-plain"></i>
-                <small>MongoDB</small>
-              </div>
-              <div class=devicons>
-                <i class="devicon-express-original"></i>
-                <small>Express.js</small>
-              </div>
-              <div class=devicons>
-                <i class="devicon-javascript-plain"></i>
-                <small>JavaScript</small>
-              </div>
-              <div class=devicons>
-                <i class="devicon-html5-plain"></i>
-                <small>HTML5</small>
-              </div>
-              <div class=devicons>
-                <i class="devicon-css3-plain"></i>
-                <small>CSS3</small>
-              </div>
-              <div class=devicons>
-                <i class="devicon-sass-original"></i>
-                <small>SASS</small>
-              </div>
-              <div class=devicons>
-                <i class="devicon-postgresql-plain"></i>
-                <small>PostgreSQL</small>
-              </div>
-              <div class=devicons>
-                <i class="devicon-django-plain"></i>
-                <small>Django</small>
-              </div>
-              <div class=devicons>
-                <i class="devicon-git-plain"></i>
-                <small>Git</small>
-              </div>
-              <div class=devicons>
-                <i class="devicon-heroku-line"></i>
-                <small>Heroku</small>
-              </div>
-              <div class=devicons>
-                <i class="devicon-mocha-plain"></i>
-                <small>Mocha</small>
-              </div>
-              <div class=devicons>
-                <i class="devicon-python-plain"></i>
-                <small>Python</small>
-              </div>
-              <div class=devicons>
-                <i class="devicon-webpack-plain"></i>
-                <small>Webpack</small>
+              <div class="devicons-container">
+                <div class=devicons>
+                  <i class="devicon-react-original"></i>
+                  <small>React.js</small>
+                </div>
+                <div class=devicons>
+                  <i class="devicon-nodejs-plain"></i>
+                  <small>Node.js</small>
+                </div>
+                <div class=devicons>
+                  <i class="devicon-mongodb-plain"></i>
+                  <small>MongoDB</small>
+                </div>
+                <div class=devicons>
+                  <i class="devicon-express-original"></i>
+                  <small>Express.js</small>
+                </div>
+                <div class=devicons>
+                  <i class="devicon-javascript-plain"></i>
+                  <small>JavaScript</small>
+                </div>
+                <div class=devicons>
+                  <i class="devicon-html5-plain"></i>
+                  <small>HTML5</small>
+                </div>
+                <div class=devicons>
+                  <i class="devicon-css3-plain"></i>
+                  <small>CSS3</small>
+                </div>
+                <div class=devicons>
+                  <i class="devicon-sass-original"></i>
+                  <small>SASS</small>
+                </div>
+                <div class=devicons>
+                  <i class="devicon-postgresql-plain"></i>
+                  <small>PostgreSQL</small>
+                </div>
+                <div class=devicons>
+                  <i class="devicon-django-plain"></i>
+                  <small>Django</small>
+                </div>
+                <div class=devicons>
+                  <i class="devicon-git-plain"></i>
+                  <small>Git</small>
+                </div>
+                <div class=devicons>
+                  <i class="devicon-heroku-line"></i>
+                  <small>Heroku</small>
+                </div>
+                <div class=devicons>
+                  <i class="devicon-mocha-plain"></i>
+                  <small>Mocha</small>
+                </div>
+                <div class=devicons>
+                  <i class="devicon-python-plain"></i>
+                  <small>Python</small>
+                </div>
+                <div class=devicons>
+                  <i class="devicon-webpack-plain"></i>
+                  <small>Webpack</small>
+                </div>
               </div>
             </div>
           </div>
-        </div>
+
       </section>
 
       <!-- Projects page -->
       <section class="projects">
-        <div class="projects-body">
-          <h1 class="projects">My Projects</h1>
+        <div class="projects-title-container">
+          <h1 class="projects-title">My Projects</h1>
+        </div>
 
-          <div class="columns">
+          <div class="columns projects">
             
             <div class="col-6 project">
               <div class="project-card">
@@ -209,7 +211,6 @@
 
           </div>
         
-        </div>
       </section>
 
       <!-- Contact page -->
@@ -228,20 +229,22 @@
               <p>If you would like to get in touch for a chat, feel free to contact me via the links below.</p>
             </div>
           </div>
-          <div class="col-3">
-            <a href="mailto:talhaikhlaq@gmail.com">
-              <i class="fa fa-envelope" style="font-size:82px; margin: 20px; color:whitesmoke;"></i>
-            </a>
-          </div>
-          <div class="col-3">
-            <a href="http://bit.ly/ti-github" target="_blank">
-              <i class="fa fa-github" style="font-size:82px; margin: 20px; color:whitesmoke;"></i>
-            </a>
-          </div>
-          <div class="col-3">
-            <a href="http://bit.ly/ti-linkedin" target="_blank">
-              <i class="fa fa-linkedin-square" style="font-size:82px; margin: 20px; color:whitesmoke;"></i>
-            </a>
+          <div class="contact-icons-container">
+            <div class="col-3">
+              <a href="mailto:talhaikhlaq@gmail.com">
+                <i class="fa fa-envelope" style="font-size:82px; margin: 20px; color:whitesmoke;"></i>
+              </a>
+            </div>
+            <div class="col-3">
+              <a href="http://bit.ly/ti-github" target="_blank">
+                <i class="fa fa-github" style="font-size:82px; margin: 20px; color:whitesmoke;"></i>
+              </a>
+            </div>
+            <div class="col-3">
+              <a href="http://bit.ly/ti-linkedin" target="_blank">
+                <i class="fa fa-linkedin-square" style="font-size:82px; margin: 20px; color:whitesmoke;"></i>
+              </a>
+            </div>
           </div>
         </div>
       </section>
